@@ -1,0 +1,23 @@
+process-scheduler/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   └── process.py
+│   │   ├── schedulers/
+│   │   │   ├── __init__.py
+│   │   │   ├── base.py
+│   │   │   ├── fcfs.py
+│   │   │   ├── sjf.py
+│   │   │   ├── round_robin.py
+│   │   │   └── priority.py
+│   │   └── routes.py
+│   ├── requirements.txt
+│   └── run.py
+└── frontend/
+    ├── public/
+    └── src/
+        ├── components/
+        ├── pages/
+        └── App.js 
